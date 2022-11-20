@@ -6,7 +6,7 @@
     "npm": "8.19.2"
   },
   "private": true,
-  "Homepage":"https://github.com/immaazkhan/todosFrontend.git",
+  "Homepage":"https://github.com/immaazkhan/todos.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
