@@ -6,7 +6,7 @@
     "npm": "8.19.2"
   },
   "private": true,
-  "proxy":"https://maazkhan-todos-mern.herokuapp.com/",
+  "Homepage":"https://github.com/immaazkhan/todosFrontend.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy":"npm run build",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
