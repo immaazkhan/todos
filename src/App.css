@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgb(249, 246, 246);
+}
+.ab{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  margin-left: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.a{
+  display: flex;
+  justify-content: center;
+}
